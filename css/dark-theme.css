@@ -1,0 +1,55 @@
+@media screen and (prefers-color-scheme:dark) {
+    body {
+        background-color: rgb(38, 38, 40);
+        color: white;
+
+        a {
+            color: white;
+
+        }
+
+        #google-products {
+            &:hover {
+                background-color: #393838;
+            }
+        }
+
+        main form section #search-section #search-bar input {
+            background-color: rgb(38, 38, 40);
+            border: none;
+            outline: none;
+            color: white;
+
+            &:hover {
+                background-color: rgb(56, 56, 57);
+            }
+        }
+        main form section #search-section {
+            &:hover {
+                background-color: rgb(56, 56, 57);
+            }
+        }
+
+        #button-section .btn{
+            color: white;
+            background-color:rgb(56, 56, 57);
+
+            &:hover {
+                /* border: 1px solid rgb(185, 178, 178); */
+                box-shadow: 0 0 2px white;
+              }
+        }
+        
+        footer {
+            background-color: rgb(29, 28, 28);
+
+            #bottom  {
+                border-top: 1px solid rgb(56, 56, 57);
+            }
+        }
+
+    }
+
+
+
+}

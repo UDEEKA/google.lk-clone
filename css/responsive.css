@@ -1,0 +1,678 @@
+@media all and (max-width: 618px) {
+    header {
+        width: auto;
+        display: flex;
+        height: 20px;
+        justify-content: end;
+        margin-right: 0;
+
+        nav {
+            font-size: 8px;
+            width: 75px;
+
+        }
+
+        #header-wrapper {
+            column-gap: 10px;
+            width: auto;
+            height: auto;
+        }
+
+        #sign-in-button {
+            font-size: 6px;
+            width: auto;
+            height: auto;
+            padding: 5px 5px 5px 5px;
+            border-radius: 10%;
+            margin-right: 5px;
+        }
+    }
+
+    main {
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: auto;
+
+        form {
+            display: flex;
+            flex-direction: column;
+            width: auto;
+            justify-content: center;
+
+            #google-logo {
+                padding: 0;
+
+                img {
+                    max-width: 60%;
+                    max-height: 60%;
+                }
+            }
+
+            section {
+                padding: 0;
+                padding-bottom: 10px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                height: auto;
+
+                #search-section {
+                    width: 350px;
+                    height: auto;
+                    padding: 0;
+                    margin: 0 100px 0 120px;
+                    font-size: 10px;
+
+                    #search-bar {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: auto;
+                        height: auto;
+                        padding-bottom: 0px;
+                        height: 25px;
+
+                        input {
+                            font-size: 15px;
+                            padding-bottom: 0;
+                            width: 260px;
+                            height: 25px;
+                        }
+                    }
+
+                    #search-icon {
+                        width: 20px;
+                        height: 20px;
+                    }
+
+                    #voice-search img {
+                        width: 15px;
+                        height: 15px;
+                    }
+
+                    #google-lens img {
+                        width: 15px;
+                        height: 15px;
+                    }
+
+                }
+
+                #button-section {
+                    padding-top: 15px;
+                }
+
+                #button-section .btn {
+                    font-size: 8px;
+                }
+
+                #language-section {
+                    font-size: 10px;
+                    padding-top: 10px;
+                }
+            }
+        }
+    }
+
+    footer {
+        font-size: 10px;
+        height: 65px;
+
+        #country {
+            padding-bottom: 20px;
+            font-size: 10px;
+            padding-left: 20px;
+        }
+
+        #bottom {
+            padding-top: 10px;
+        }
+
+        #bottom1 {
+            padding-left: 80px;
+        }
+
+        #bottom2 {
+            padding-right: 50px;
+        }
+    }
+}
+
+@media all and (max-width: 596px) {
+    #container {
+        overflow: hidden;
+    }
+
+    main form #google-logo {
+        height: 80px;
+    }
+
+    footer {
+        font-size: 8px;
+        height: 55px;
+
+        #country {
+            padding-bottom: 15px;
+            font-size: 8px;
+            padding-left: 15px;
+        }
+    }
+}
+
+@media all and (max-width: 566px) {
+    #container {
+        overflow: hidden;
+    }
+
+    main form #google-logo {
+        height: 80px;
+    }
+
+    header {
+        width: 100%;
+        margin-right: 10px;
+        margin-left: 5px;
+
+        #sign-in-button {
+            margin-right: 10px;
+        }
+    }
+}
+
+@media all and (max-width: 543px) {
+    #container {
+        overflow: hidden;
+    }
+
+    main form #google-logo {
+        height: 60px;
+    }
+
+    header {
+        width: 100%;
+        margin-right: 10px;
+        margin-left: 0px;
+
+        #sign-in-button {
+            margin-right: 5px;
+        }
+    }
+}
+
+@media all and (max-width: 534px) {
+    #container {
+        overflow: hidden;
+    }
+
+    footer {
+        #country {
+            padding-left: 10px;
+        }
+
+        #bottom1 {
+            padding-left: 60px;
+        }
+    }
+}
+
+@media all and (max-width: 525px) {
+    #container {
+        overflow: hidden;
+    }
+
+    main form #google-logo {
+        height: 55px;
+    }
+
+    header {
+        width: 100%;
+        margin-left: 0px;
+
+        #sign-in-button {
+            margin-right: 5px;
+        }
+    }
+}
+
+@media all and (max-width: 514px) {
+    #container {
+        overflow: hidden;
+    }
+
+    footer {
+        #bottom1 {
+            padding-left: 55px;
+        }
+    }
+}
+
+@media all and (max-width: 508px) {
+    #container {
+        overflow: hidden;
+    }
+
+    main form #google-logo {
+        height: 50px;
+    }
+
+    header {
+        width: 100%;
+        margin-left: 0;
+
+        #sign-in-button {
+            margin-right: 5px;
+        }
+    }
+
+    footer {
+        #bottom1 {
+            padding-left: 50px;
+        }
+
+        #bottom2 {
+            padding-right: 30px;
+        }
+    }
+}
+
+@media all and (max-width: 492px) {
+    #container {
+        overflow: hidden;
+    }
+
+    main form #google-logo {
+        height: 40px;
+    }
+
+    header {
+        width: 100%;
+        margin-left: 0;
+
+        #sign-in-button {
+            margin-right: 5px;
+        }
+    }
+
+    footer {
+        width: 100%;
+
+        #country {
+            width: auto;
+        }
+
+        #bottom {
+            width: auto;
+        }
+
+        #bottom1 {
+            width: auto;
+            padding-left: 50px;
+        }
+    }
+}
+
+@media all and (max-width: 484px) {
+    #container {
+        overflow: hidden;
+    }
+
+    header {
+        width: 100%;
+        margin-left: 0;
+
+        #sign-in-button {
+            margin-right: 5px;
+        }
+    }
+
+    main {
+        margin-top: 50px;
+
+        form {
+            display: flex;
+            justify-content: center;
+            width: 350px;
+            margin-left: 30px;
+
+            section {
+                #search-section {
+                    width: auto;
+                    margin: 0;
+                }
+            }
+        }
+    }
+
+    footer {
+        font-size: 7px;
+        width: 100%;
+
+        #bottom1 {
+            padding-left: 35px;
+        }
+    }
+}
+
+@media all and (max-width: 479px) {
+    #container {
+        overflow: hidden;
+    }
+
+    main {
+        margin-top: 50px;
+
+        form {
+            width: 270px;
+
+
+            section {
+                #search-section {
+                    width: auto;
+                    margin: 0;
+
+                    #search-bar {
+                        input {
+                            width: 180px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    footer {
+        font-size: 7px;
+        width: 100%;
+        padding-left: 0;
+
+        #country {
+            padding-left: 10px;
+        }
+
+        #bottom1 {
+            padding-left: 30px;
+        }
+    }
+}
+
+@media all and (max-width: 468px) {
+    #container {
+        overflow: hidden;
+    }
+
+    footer {
+        font-size: 7px;
+        width: 100%;
+        padding-left: 0;
+
+        #country {
+            padding-left: 10px;
+        }
+
+        #bottom1 {
+            padding-left: 30px;
+        }
+    }
+}
+
+@media all and (max-width: 459px) {
+    #container {
+        overflow: hidden;
+    }
+
+    footer {
+        font-size: 7px;
+        width: 100%;
+        padding-left: 0;
+
+        #country {
+            padding-left: 10px;
+        }
+
+        #bottom1 {
+            padding-left: 30px;
+        }
+    }
+}
+
+@media all and (max-width: 454px) {
+    #container {
+        overflow: hidden;
+    }
+
+    footer {
+        font-size: 6px;
+        width: 100%;
+        padding-left: 0;
+
+        #country {
+            font-size: 6px;
+        }
+
+        #bottom1 {
+            padding-left: 40px;
+        }
+    }
+}
+
+@media all and (max-width: 440px) {
+    #container {
+        overflow: hidden;
+    }
+
+    footer {
+        font-size: 6px;
+        width: 100%;
+        padding-left: 0;
+
+        #country {
+            font-size: 6px;
+        }
+
+        #bottom1 {
+            padding-left: 40px;
+        }
+    }
+}
+
+@media all and (max-width: 401px) {
+    #container {
+        overflow: hidden;
+    }
+
+    footer {
+        width: auto;
+        height: 50px;
+
+        #bottom1 {
+            padding-left: 40px;
+        }
+
+        #bottom2 {
+            padding-right: 25px;
+        }
+    }
+}
+
+@media all and (max-width: 397px) {
+    #container {
+        overflow: hidden;
+
+        #bottom2 {
+            padding-right: 20px;
+        }
+    }
+}
+
+@media all and (max-width: 392px) {
+    #container {
+        overflow: hidden;
+    }
+
+    footer {
+        width: 100%;
+        height: 50px;
+
+        #bottom1 {
+            padding-left: 30px;
+        }
+
+        #bottom2 {
+            padding-right: 20px;
+        }
+    }
+}
+
+@media all and (max-width: 381px) {
+    #container {
+        overflow: hidden;
+    }
+
+    footer {
+
+        #bottom1 {
+            padding-left: 25px;
+        }
+    }
+}
+
+@media all and (max-width: 377px) {
+    #container {
+        overflow: hidden;
+    }
+
+    main {
+        form {
+            width: 230px;
+
+            section {
+                #search-section {
+                    #search-bar {
+                        input {
+                            width: 140px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    footer {
+        /* background-color: red; */
+        font-size: 6px;
+
+
+        #bottom1 {
+            padding-left: 20px;
+        }
+
+        #bottom2 {
+            padding-right: 0px;
+        }
+    }
+}
+
+@media all and (max-width: 372px) {
+    #container {
+        overflow: hidden;
+    }
+
+    footer {
+
+        #bottom1 {
+            padding-left: 25px;
+        }
+
+        #bottom2 {
+            padding-right: 0px;
+        }
+
+        #bottom1 a,
+        #bottom2 a {
+            margin-right: 10px;
+        }
+    }
+}
+
+@media all and (max-width: 368px) {
+    #container {
+        overflow: hidden;
+    }
+
+    header {
+        margin-top: 2px;
+    }
+
+    a {
+        font-size: 6px;
+    }
+
+    .btn {
+        font-size: 8px;
+    }
+
+    div {
+        font-size: 8px;
+    }
+
+    main {
+        form {
+            width: 200px;
+
+            section {
+                #search-section {
+                    #search-bar {
+                        input {
+                            width: 110px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    footer {
+        #bottom1 {
+            padding-left: 20px;
+        }
+
+        #bottom2 {
+            padding-right: 15px;
+        }
+    }
+}
+
+@media all and (max-width: 340px) {
+    #container {
+        overflow: hidden;
+    }
+
+    main {
+        margin-top: 50px;
+    }
+}
+
+@media all and (max-width: 326px) {
+    #container {
+        overflow: hidden;
+
+        footer {
+            font-size: 4px;
+
+            #bottom1 {
+                padding-left: 30px;
+            }
+
+            #bottom2 {
+                font-size: 4px;
+                padding-right: 0px;
+            }
+
+            #bottom1 a,
+            #bottom2 a {
+                margin-right: 5px; 
+            }
+        }
+    }
+}
