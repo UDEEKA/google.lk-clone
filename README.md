@@ -18,7 +18,8 @@ A simple Google Clone web application built using modern web technologies. This 
 
 The Google Clone App is a front-end web application that mimics the Google search homepage. It includes a search bar, a logo, and some basic styling. This project is designed to demonstrate the use of HTML, CSS, and JavaScript to build a responsive and functional web page.
 
-This project is a Google clone application designed for educational purposes only.
+**Note:** This project is developed for educational purposes only.
+
 ## Features
 
 - Search bar with basic functionality
@@ -40,19 +41,19 @@ This project is a Google clone application designed for educational purposes onl
 
 ### Installation
 
-1. Clone the repository:
+1. **Clone the repository:**
 
     ```bash
-   https://github.com/UDEEKA/google.lk-clone.git
+    git clone https://github.com/UDEEKA/google.lk-clone.git
     ```
 
-2. Navigate to the project directory:
+2. **Navigate to the project directory:**
 
     ```bash
-    cd google-clone-app
+    cd google.lk-clone
     ```
 
-3. Open `index.html` in your web browser to view the app.
+3. **Open `index.html` in your web browser to view the app.**
 
 ## Usage
 
@@ -60,22 +61,23 @@ To use the app, simply open `index.html` in a web browser. You can enter text in
 
 ## Contributing
 
-Feel free to contribute to the project by submitting issues or pull requests. Please follow the code of conduct and contribution guidelines when participating.
+Feel free to contribute to the project by submitting issues or pull requests. Please follow the [code of conduct](CONTRIBUTING.md) and contribution guidelines when participating.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE.txt) file for details.
 
 ## Contact
 
 For any questions or feedback, you can reach me at:
 
-- **GitHub**: [UDEEKA](https://github.com/UDEEKA/google.lk-clone.git)
-- **Email**: cudeeka@gmail.com
+- **GitHub**: [UDEEKA](https://github.com/UDEEKA)
+- **Email**: [cudeeka@gmail.com](mailto:cudeeka@gmail.com)
 
 ## Images
-![Google Clone Screenshot dark theme](img/screenshots/Screenshot from 2024-09-09 22-40-42.png)
+
+![Google Clone Screenshot - Dark Theme](img/screenshots/Screenshot from 2024-09-09 22-40-42.png)
 ---
-![Google Clone Screenshot Responsive window](img/screenshots/Screenshot from 2024-09-09 22-41-28.png)
+![Google Clone Screenshot - Responsive Window](img/screenshots/Screenshot from 2024-09-09 22-41-28.png)
 ---
-![Google Clone Screenshot light window](img/screenshots/Screenshot from 2024-09-09 22-42-48.png)
+![Google Clone Screenshot - Light Window](img/screenshots/Screenshot from 2024-09-09 22-42-48.png)
