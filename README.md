@@ -12,7 +12,6 @@ A simple Google Clone web application built using modern web technologies. This 
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
-- [Images](#images)
 
 ## Project Description
 
@@ -73,11 +72,3 @@ For any questions or feedback, you can reach me at:
 
 - **GitHub**: [UDEEKA](https://github.com/UDEEKA)
 - **Email**: [cudeeka@gmail.com](mailto:cudeeka@gmail.com)
-
-## Images
-
-![Google Clone Screenshot - Dark Theme](img/screenshots/Screenshot from 2024-09-09 22-40-42.png)
----
-![Google Clone Screenshot - Responsive Window](img/screenshots/Screenshot from 2024-09-09 22-41-28.png)
----
-![Google Clone Screenshot - Light Window](img/screenshots/Screenshot from 2024-09-09 22-42-48.png)
